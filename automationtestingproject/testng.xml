@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation testing Suite">
+
+    <listeners>
+   
+     <listener class-name="com.automationtesting.utilities.ExtentReportManager"/>
+     
+   </listeners>
+
+
+  <test thread-count="3" name="Test">
+  
+    <parameter name="browser" value="chrome"/>
+    
+  <!--   <groups>
+       <run>
+          <include name="Sanity test"/>
+          <exclude name="Regression test"/>
+       </run>
+    </groups>-->
+ 
+    <classes>
+    
+        <class name="com.auomationtesting.testCases.HomePageWithThreeSlidersOnly_001"/>
+        <!-- a<class name="com.auomationtesting.testCases.HomePageWithThreeArrivalsOnly_002"/>
+        <class name="com.auomationtesting.testCases.ImageInArrivalsShouldNavigate_003"/>
+        <class name="com.auomationtesting.testCases.ArrivalsImagesDescriptions_004"/>
+        <class name="com.auomationtesting.testCases.ArrivalsImagesReviews_005"/>
+        <class name="com.auomationtesting.testCases.ArrivalsImageBookAddToBasket_006"/>
+        <class name="com.auomationtesting.testCases.AddToBasketWithMoreBooks_007"/>
+        <class name="com.auomationtesting.testCases.ArrivalsAddBasketItems_008"/>
+        <class name="com.auomationtesting.testCases.ApplyingCouponCode_009"/>
+        <class name="com.auomationtesting.testCases.DenyingCouponCodeBelowValue_010"/>
+        <class name="com.auomationtesting.testCases.RemovingBookFromTheGrid_011"/>
+        <class name="com.auomationtesting.testCases.UpdateBasketCheckingAfterAddingMoreBooks_012"/>
+        <class name="com.auomationtesting.testCases.CheckingOutTheFinalPriceOfTheBook_013"/>
+        <class name="com.auomationtesting.testCases.CheckingTotalAndSubtotalPrice_014"/>
+        <class name="com.auomationtesting.testCases.ItemCheckOutFunctionality_015"/>
+        <class name="com.auomationtesting.testCases.FillingUpBillingDetailsInPaymentPage_016"/>
+        <class name="com.auomationtesting.testCases.LoginWithValidUserNameAndValidPassword_017"/>
+        <class name="com.auomationtesting.testCases.LoginWithInvalidUserNameAndPassword_018"/>
+        <class name="com.auomationtesting.testCases.LoginWithValidUserNameAndEmptyPassword_019"/>
+        <class name="com.auomationtesting.testCases.LoginWithValidPasswordAndEmptyUserName_020"/>
+        <class name="com.auomationtesting.testCases.LoginWithAnEmptyUserNameAndEmptyPassword_021"/>
+        <class name="com.auomationtesting.testCases.LoginPasswordShouldBeMasked_022"/>
+        <class name="com.auomationtesting.testCases.LoginHandlesCaseSensitiveCase_023"/>
+        <class name="com.auomationtesting.testCases.LoginAuthentication_024"/>
+        <class name="com.auomationtesting.testCases.Shop_FilterByPriceFunctionality_025"/>
+        <class name="com.auomationtesting.testCases.Shop_ProductCatagoriesFunctionality_026"/>
+        <class name="com.auomationtesting.testCases.Shop_SortByPopularityFunctionality_027"/>
+        <class name="com.auomationtesting.testCases.Shop_SortByAverageRatingFunctionality_028"/>
+        <class name="com.auomationtesting.testCases.Shop_SortByNewnessRatingFunctionality_029"/>
+        <class name="com.auomationtesting.testCases.Shop_SortByLowToHighItemFunctionality_030"/>
+        <class name="com.auomationtesting.testCases.Shop_SortByHighToLowItemFunctionality_031"/>
+        <class name="com.auomationtesting.testCases.Shop_ReadMoreFunctionality_032"/>
+        <class name="com.auomationtesting.testCases.Shop_SaleFunctionality_033"/>
+        <class name="com.auomationtesting.testCases.Shop_AddToBasket_ViewBasketFunctionality_034"/>
+        <class name="com.auomationtesting.testCases.Shop_ViewBasketTaxFunctionality_035"/>
+        <class name="com.auomationtesting.testCases.MyAccount_Dashboard_036"/>
+        <class name="com.auomationtesting.testCases.MyAccount_Order_ViewingOrder_037"/>
+        <class name="com.auomationtesting.testCases.MyAccount_Order_ViewingOrderDetailsBillingDetailsCustomerDetails_038"/>
+        <class name="com.auomationtesting.testCases.MyAccount_Order_ViewingOrderNoOrderDateAndOrderStatus_039"/>
+        <class name="com.auomationtesting.testCases.MyAccount_Addressfunctionality_ViewingBillingAndShippingAddress_040"/>
+        <class name="com.auomationtesting.testCases.MyAccount_AddressFunctionality_EditShippingAddress_041"/>
+        <class name="com.auomationtesting.testCases.MyAccount_AccountDetails_042"/>
+        <class name="com.auomationtesting.testCases.MyAccount_LogoutFunctionality_043"/>-->
+        
+        
+        
+        
+        
+        
+        
+        
+      </classes>
+    
+  </test> 
+  
+</suite> 
