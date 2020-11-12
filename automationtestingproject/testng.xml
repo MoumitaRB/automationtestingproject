@@ -23,10 +23,10 @@
  
     <classes>
     
-        <class name="com.auomationtesting.testCases.HomePageWithThreeSlidersOnly_001"/>
-        <!-- a<class name="com.auomationtesting.testCases.HomePageWithThreeArrivalsOnly_002"/>
+        <!-- <class name="com.auomationtesting.testCases.HomePageWithThreeSlidersOnly_001"/>
+        <class name="com.auomationtesting.testCases.HomePageWithThreeArrivalsOnly_002"/>-->
         <class name="com.auomationtesting.testCases.ImageInArrivalsShouldNavigate_003"/>
-        <class name="com.auomationtesting.testCases.ArrivalsImagesDescriptions_004"/>
+        <!-- <class name="com.auomationtesting.testCases.ArrivalsImagesDescriptions_004"/>
         <class name="com.auomationtesting.testCases.ArrivalsImagesReviews_005"/>
         <class name="com.auomationtesting.testCases.ArrivalsImageBookAddToBasket_006"/>
         <class name="com.auomationtesting.testCases.AddToBasketWithMoreBooks_007"/>
